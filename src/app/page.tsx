@@ -7,7 +7,7 @@ export default function Home() {
         <ThemeToggle />
       </div>
 
-      <div className="flex gap-10 justify-center items-center">
+      <div className="flex max-sm:flex-col gap-10 justify-center items-center ">
         <img
           src="/estude-dev.webp"
           width={100}
@@ -15,7 +15,7 @@ export default function Home() {
           className="rounded-full"
           alt="Logo do site estude.dev. A logo representa um livro com códigos referenciando à programação"
         />
-        <h1 className="text-6xl font-black">Estude.dev</h1>
+        <h1 className="text-6xl max-sm:text-4xl font-black">Estude.dev</h1>
       </div>
       <p>Site em construção</p>
       <a
