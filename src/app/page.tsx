@@ -1,5 +1,4 @@
 import { ThemeToggle } from "@/components/theme-toggle";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,8 +8,8 @@ export default function Home() {
       </div>
 
       <div className="flex gap-10 justify-center items-center">
-        <Image
-          src={"/estude-dev.webp"}
+        <img
+          src="/estude-dev.webp"
           width={100}
           height={100}
           className="rounded-full"
